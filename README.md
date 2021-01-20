@@ -15,11 +15,11 @@ Valorant Agents project utilizes React JS, JavaScript, API, CRUD, HTML 5 and CSS
 ![imageAlt](https://i.imgur.com/WXzLtnY.png)
 ![imageAlt](https://i.imgur.com/vu8xte7.png)
 ![imageAlt](https://i.imgur.com/ymhUjmv.png)
-![imageAlt](https://i.imgur.com/vn7eife.png)
+![imageAlt](https://i.imgur.com/SUGXXRp.png)
 
 ## Component Hierarchy
 
-![imageAlt](https://i.imgur.com/r10rw7q.png)
+![imageAlt](https://i.imgur.com/vn7eife.png)
 
 ## API and Data Sample
 
@@ -35,6 +35,7 @@ records: [
         fields: {
             name: "Breach",
             biography: "Breach, the bionic Swede, fires powerful, targeted kinetic blasts to aggressively clear a path through enemy ground. The damage and disruption he inflicts ensures no fight is ever fair.",
+            image: "Breach.png",
             role: "Initiator"
         },
         createdTime: "2021-01-20T14:14:49.000Z"
@@ -44,6 +45,7 @@ records: [
         fields: {
             name: "Brimstone",
             biography: "Joining from the USA, Brimstone's orbital arsenal ensures his squad always has the advantage. His ability to deliver utility precisely and from a distance make him an unmatched boots-on-the-ground commander.",
+            image: "Brimstone.png",
             role: "Controller"
         },
         createdTime: "2021-01-20T14:04:50.000Z"
@@ -81,19 +83,21 @@ records: [
 | ------------------------------------------| :------: | :------------: | :-----------: | :---------: |
 | Proposal                                  |    H     |      2hrs      |               |             |
 | Airtable setup                            |    H     |     .5hrs      |               |             |
-| Components Header, creation               |    H     |      10hrs     |               |             |
-| Components Footer, creation               |    H     |      10hrs     |               |             |
-| Components Name, creation                 |    H     |      10hrs     |               |             |
-| Components Image, reation                 |    H     |      10hrs     |               |             |
-| Components Description, creation          |    H     |      10hrs     |               |             |
-| Components Hamburger, creation            |    H     |      10hrs     |               |             |
-| Components Header, implementation         |    H     |      2.5hrs    |               |             |
-| Components Footer, implementation         |    H     |      2.5hrs    |               |             |
-| Components Name, implementation           |    H     |      2.5hrs    |               |             |
-| Components Image, implementation          |    H     |      2.5hrs    |               |             |
-| Components Description, implementation    |    H     |      2.5hrs    |               |             |
-| Components Hamburger Menu, implementation |    H     |      2.5hrs    |               |             |
+| Components Header, creation               |    H     |      1hrs      |               |             |
+| Components Footer, creation               |    H     |      1hrs      |               |             |
+| Components Name, creation                 |    H     |      1hrs      |               |             |
+| Components Image, creation                |    H     |      1hrs      |               |             |
+| Components Description, creation          |    H     |      1hrs      |               |             |
+| Components Create, creation               |    H     |      1hrs      |               |             |
+| Components Hamburger, creation            |    H     |      1hrs      |               |             |
+| Components Header, implementation         |    H     |      2hrs      |               |             |
+| Components Footer, implementation         |    H     |      2hrs      |               |             |
+| Components Name, implementation           |    H     |      2hrs      |               |             |
+| Components Image, implementation          |    H     |      2hrs      |               |             |
+| Components Description, implementation    |    H     |      2hrs      |               |             |
+| Components Create, implementation         |    H     |      2hrs      |               |             |
+| Components Hamburger Menu, implementation |    H     |      2hrs      |               |             |
 | Basic CSS                                 |    H     |      5hrs      |               |             |
 | Advanced CSS                              |    H     |      15hrs     |               |             |
-| Total                                     |    H     |    47.5hrs     |               |             |
+| Total                                     |    H     |    43.5hrs     |               |             |
 
