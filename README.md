@@ -15,7 +15,7 @@ Valorant Agents project utilizes React JS, JavaScript, API, CRUD, HTML 5 and CSS
 ![imageAlt](https://i.imgur.com/WXzLtnY.png)
 ![imageAlt](https://i.imgur.com/vu8xte7.png)
 ![imageAlt](https://i.imgur.com/ymhUjmv.png)
-![imageAlt](https://i.imgur.com/SUGXXRp.png)
+![imageAlt](https://i.imgur.com/vn7eife.png)
 
 ## Component Hierarchy
 
@@ -77,13 +77,23 @@ records: [
 
 ## Timeframes
 
-| Component                 | Priority | Estimated Time | Time Invested | Actual Time |
-| ------------------------- | :------: | :------------: | :-----------: | :---------: |
-| Proposal                  |    H     |      2hrs      |               |             |
-| Airtable setup            |    H     |     .5hrs      |               |             |
-| Components Creation       |    H     |      10hrs     |               |             |
-| Components implementation |    H     |      15hrs     |               |             |
-| Basic CSS                 |    H     |      5hrs      |               |             |
-| Advanced CSS              |    H     |      15hrs     |               |             |
-| Total                     |    H     |    47.5hrs     |               |             |
+| Component                                 | Priority | Estimated Time | Time Invested | Actual Time |
+| ------------------------------------------| :------: | :------------: | :-----------: | :---------: |
+| Proposal                                  |    H     |      2hrs      |               |             |
+| Airtable setup                            |    H     |     .5hrs      |               |             |
+| Components Header, creation               |    H     |      10hrs     |               |             |
+| Components Footer, creation               |    H     |      10hrs     |               |             |
+| Components Name, creation                 |    H     |      10hrs     |               |             |
+| Components Image, reation                 |    H     |      10hrs     |               |             |
+| Components Description, creation          |    H     |      10hrs     |               |             |
+| Components Hamburger, creation            |    H     |      10hrs     |               |             |
+| Components Header, implementation         |    H     |      2.5hrs    |               |             |
+| Components Footer, implementation         |    H     |      2.5hrs    |               |             |
+| Components Name, implementation           |    H     |      2.5hrs    |               |             |
+| Components Image, implementation          |    H     |      2.5hrs    |               |             |
+| Components Description, implementation    |    H     |      2.5hrs    |               |             |
+| Components Hamburger Menu, implementation |    H     |      2.5hrs    |               |             |
+| Basic CSS                                 |    H     |      5hrs      |               |             |
+| Advanced CSS                              |    H     |      15hrs     |               |             |
+| Total                                     |    H     |    47.5hrs     |               |             |
 
