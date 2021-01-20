@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# Valorant Agents
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Deployed URL]
 
-## Available Scripts
+## Project Description
 
-In the project directory, you can run:
+Valorant Agents project utilizes React JS, JavaScript, API, CRUD, HTML 5 and CSS 3 to display all 11 Agents data onto a Single Page App. All Agents will have their names displayed on page load. Agent that have their name on focused will additionally have their image, role and biography displayed along side them.
 
-### `npm start`
+## Wireframes & Color Palette
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+![imageAlt](https://i.imgur.com/ovycVvA.png)
+![imageAlt](https://i.imgur.com/mNib6Gm.png)
+![imageAlt](https://i.imgur.com/WXzLtnY.png)
+![imageAlt](https://i.imgur.com/vu8xte7.png)
+![imageAlt](https://i.imgur.com/ymhUjmv.png)
+![imageAlt](https://i.imgur.com/SUGXXRp.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Component Hierarchy
 
-### `npm run build`
+![imageAlt](https://i.imgur.com/r10rw7q.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## API and Data Sample
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+https://airtable.com/shrY9ByolApig7M1f/tble5Cv3lofqkHfqx
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Airtable is returning the data for this base as follows:
 
-### `npm run eject`
+```
+{
+records: [
+    {
+        id: "rec4bLmiHqGh4ISib",
+        fields: {
+            name: "Breach",
+            biography: "Breach, the bionic Swede, fires powerful, targeted kinetic blasts to aggressively clear a path through enemy ground. The damage and disruption he inflicts ensures no fight is ever fair.",
+            role: "Initiator"
+        },
+        createdTime: "2021-01-20T14:14:49.000Z"
+        },
+        {
+        id: "rec5FRunF4ExseaPL",
+        fields: {
+            name: "Brimstone",
+            biography: "Joining from the USA, Brimstone's orbital arsenal ensures his squad always has the advantage. His ability to deliver utility precisely and from a distance make him an unmatched boots-on-the-ground commander.",
+            role: "Controller"
+        },
+        createdTime: "2021-01-20T14:04:50.000Z"
+    },
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### MVP/PostMVP
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### MVP
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Display Agents' image, name, role and biography
+- User able to create and display new Agent and update Airtable API data
+- Scrollable Agents' name
 
-## Learn More
+#### PostMVP
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Create parallax scrolling
+- Create custom animated background
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Project Schedule
 
-### Code Splitting
+| Day      | Deliverable                                | Status   |
+| -------- | ------------------------------------------ | -------- |
+| 1/20/2021 | Proposal Approval / Airtable Setup         | Complete |
+| 1/21/2021 | Component Creation / Get, Set, Delete Data | Incomplete |
+| 1/22/2021 | Component Creation, continued/ CSS Components | Incomplete |
+| 1/23/2021 | CSS Components, continued / MVP                | Incomplete |
+| 1/24/2021 | Advanced CSS                               | Incomplete |
+| 1/27/2021 | Presentations                              | Incomplete |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Timeframes
 
-### Analyzing the Bundle Size
+| Component                 | Priority | Estimated Time | Time Invested | Actual Time |
+| ------------------------- | :------: | :------------: | :-----------: | :---------: |
+| Proposal                  |    H     |      2hrs      |               |             |
+| Airtable setup            |    H     |     .5hrs      |               |             |
+| Components Creation       |    H     |      10hrs     |               |             |
+| Components implementation |    H     |      15hrs     |               |             |
+| Basic CSS                 |    H     |      5hrs      |               |             |
+| Advanced CSS              |    H     |      15hrs     |               |             |
+| Total                     |    H     |    47.5hrs     |               |             |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
