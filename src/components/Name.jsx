@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import Description from "./Description.jsx"
+import Description from "./Description.jsx";
+
 
 function Name(props){
     const {agents} = props;
@@ -21,7 +22,9 @@ function Name(props){
                             <div>
                                 <img className="agents-image" src={agent.fields.image} alt={agent.fields.name} />
                             </div>
-                            <Description agent={agent}/>
+                            <div>
+                                <Description agent={agent}/>
+                            </div>
                         </div>
                     )
                 })}
