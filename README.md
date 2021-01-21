@@ -35,7 +35,7 @@ records: [
         fields: {
             name: "Breach",
             biography: "Breach, the bionic Swede, fires powerful, targeted kinetic blasts to aggressively clear a path through enemy ground. The damage and disruption he inflicts ensures no fight is ever fair.",
-            image: ""https://static.wikia.nocookie.net/valorant_esports_gamepedia_en/images/d/de/Agent_Breach_Half.png"",
+            image: "https://static.wikia.nocookie.net/valorant_esports_gamepedia_en/images/d/de/Agent_Breach_Half.png",
             role: "Initiator"
         },
         createdTime: "2021-01-20T14:14:49.000Z"
@@ -45,7 +45,7 @@ records: [
         fields: {
             name: "Brimstone",
             biography: "Joining from the USA, Brimstone's orbital arsenal ensures his squad always has the advantage. His ability to deliver utility precisely and from a distance make him an unmatched boots-on-the-ground commander.",
-            image: ""https://static.wikia.nocookie.net/valorant_esports_gamepedia_en/images/9/91/Agent_Brimstone_Half.png"",
+            image: "https://static.wikia.nocookie.net/valorant_esports_gamepedia_en/images/9/91/Agent_Brimstone_Half.png",
             role: "Controller"
         },
         createdTime: "2021-01-20T14:04:50.000Z"
