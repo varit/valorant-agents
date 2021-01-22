@@ -1,8 +1,15 @@
 * {
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
 }
-.agents-image {
-  width: auto;
-  height: 600px;
+
+a {
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
 }

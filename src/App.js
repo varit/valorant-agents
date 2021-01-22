@@ -1,18 +1,18 @@
 import { useState, useEffect } from "react";
 import { baseURL, config } from "./services/index.js";
 import { Route } from "react-router-dom";
-import Nav from "./components/Nav.jsx"
-import Footer from "./components/Footer.jsx"
-import Name from "./components/Name.jsx"
-import Create from "./components/Create.jsx";
+import Nav from "./components/Nav/Nav.jsx"
+import Footer from "./components/Footer/Footer.jsx"
+import Name from "./components/Name/Name.jsx"
+import Create from "./components/Create/Create.jsx";
 
 
 import './App.css';
 import axios from "axios";
 
 function App() {
-  const  [agents, setAgents] = useState([]);
-
+  const [agents, setAgents] = useState([]);
+  const [toggle, setToggle] = useState(false)
   
   useEffect(() => {
     const getAgents = async () => {
@@ -22,16 +22,17 @@ function App() {
       }))
     }
     getAgents();
-  },[])
+  },[toggle])
   return (
     <div className="App">
       <Nav/>
-      <Route>
+      <Route exact path="/">
         <Name agents={agents}/>
       </Route>
-      <Create/>
+      <Route path="/new">
+        <Create setToggle={setToggle}/>
+      </Route>
       <Footer/>
-
     </div>
   );
 }

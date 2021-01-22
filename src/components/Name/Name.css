@@ -1,0 +1,36 @@
+/*  #FFFFFF #111111 #333333 #ff4655 #000A1F*/
+
+.agents-container {
+  display: grid;
+	grid-template-columns: 1fr 2fr 3fr 2fr 1fr;
+	grid-template-rows: 110px 110px 110px 110px 110px 110px;
+	background-color: #000A1F;
+}
+ul.agents-id,
+ul.agents-name {
+	align-self: center;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+ul.agents-id {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	justify-self: end;
+}
+ul.agents-name {
+	font-size: 39px;
+	font-weight: 600;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	justify-self: start;
+}
+.agents-image {
+	width: auto;
+  height: 500px;
+	grid-column-start: 3;
+	grid-column-end: 4;
+	justify-self: center;
+}
+
+
+

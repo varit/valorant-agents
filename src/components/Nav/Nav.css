@@ -1,0 +1,33 @@
+/*  #FFFFFF #111111 #333333 #ff4655 #000A1F*/
+nav {
+  background-color: #111111;
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px auto 50px 50px 50px 50px;
+  padding: 5px;
+}
+.item-va-nav,
+.item-create-nav,
+.item-gh-nav,
+.item-li-nav {
+  justify-self: center;
+  align-self: center;
+}
+.item-create-nav,
+.item-gh-nav,
+.item-li-nav {
+  width: 35px;
+  height: 35px;
+}
+.item-va-nav {
+  color: #ffffff;
+  grid-column-start: 5;
+}
+.item-create-nav {
+  grid-column-start: 6;
+}
+.item-gh-nav {
+  grid-column-start: 7;
+}
+.item-li-nav {
+  grid-column-start: 8;
+}
