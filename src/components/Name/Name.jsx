@@ -1,36 +1,25 @@
 import "./Name.css";
-import { Link } from "react-router-dom";
-import Description from "../Description/Description.jsx";
+import { NavLink } from "react-router-dom";
 
 function Name(props) {
   const { agents } = props;
   // console.log("Agents",agents);
 
   return (
-    <div>
-      <div>
+    <div className="agents-container">
+      <div className="agent-scrollbox">
         {agents.map((agent) => {
           return (
-            <div className="agents-container" key={agent.id}>
+            <div className="agent" key={agent.id}>
               <ul className="agents-id">
                 <li>{agent.fields.id}
                 </li>
               </ul>
               <ul className="agents-name">
                 <li>
-                  <Link to={`/${agent.id}`}>{agent.fields.name.toUpperCase()}</Link>
+                  <NavLink activeStyle={{color: "#ff4655"}} to={`/agent/${agent.id}`}>{agent.fields.name.toUpperCase()}</NavLink>
                 </li>
               </ul>
-              <div className="agents-image">
-                <img
-                  className="agents-image"
-                  src={agent.fields.image}
-                  alt={agent.fields.name}
-                />
-              </div>
-              <div>
-                <Description agent={agent} />
-              </div>
             </div>
           );
         })}

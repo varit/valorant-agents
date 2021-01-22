@@ -4,6 +4,7 @@ import { Route } from "react-router-dom";
 import Nav from "./components/Nav/Nav.jsx"
 import Footer from "./components/Footer/Footer.jsx"
 import Name from "./components/Name/Name.jsx"
+import Image from "./components/Image/Image.jsx"
 import Create from "./components/Create/Create.jsx";
 
 
@@ -28,6 +29,10 @@ function App() {
       <Nav/>
       <Route exact path="/">
         <Name agents={agents}/>
+      </Route>
+      <Route path="/agent/:id">
+        <Name agents={agents}/>
+        <Image agents={agents}/>
       </Route>
       <Route path="/new">
         <Create setToggle={setToggle}/>

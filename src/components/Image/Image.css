@@ -1,0 +1,39 @@
+.agents-image {
+	width: auto;
+  height: 500px;
+	grid-column-start: 3;
+	grid-column-end: 4;
+	justify-self: center;
+}
+
+.description-container {
+  display: grid;
+  grid-template-columns: 1fr;
+	grid-template-rows: repeat(12, 55px);
+}
+.item-role {
+  font-size: 10px;
+  align-self: end;
+  grid-row-start: 2;
+
+}
+.item-role-des {
+  font-size: 30px;
+  font-weight: bold;
+  justify-self: start;
+  align-self: center;
+  grid-row-start: 3;
+}
+.item-bio {
+  font-size: 10px;
+  align-self: center;
+  grid-row-start: 4;
+}
+
+.item-bio-des{
+  font-size: 10px;
+  font-weight: 350;
+  align-self: start;
+  grid-row-start: 5;
+
+}
