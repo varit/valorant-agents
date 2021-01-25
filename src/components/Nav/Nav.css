@@ -1,5 +1,7 @@
 /*  #FFFFFF #111111 #333333 #ff4655 #000A1F*/
 nav {
+  position: relative;
+  z-index: 5;
   background-color: #111111;
   display: grid;
   grid-template-columns: 50px 50px 50px 50px auto 50px 50px 50px 50px;

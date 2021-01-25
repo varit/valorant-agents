@@ -1,8 +1,14 @@
+import "./Footer.css"
+
 function Footer() {
   return (
-    <div>
-      <footer>&copy; Varit Seekhao</footer>
-    </div>
+    <>
+      <footer>
+        <div className="item-footer">
+          &copy; Varit Seekhao
+        </div>
+      </footer>
+    </>
   );
 }
 

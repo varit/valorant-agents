@@ -1,0 +1,15 @@
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 5;
+  background-color: #111111;
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px auto 50px 50px 50px 50px;
+  grid-template-rows: 1fr;
+  padding: 5px;
+}
+.item-footer {
+  grid-column-start: 5;
+  justify-self: center;
+}

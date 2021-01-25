@@ -1,43 +1,48 @@
 import { useState, useEffect } from "react";
 import { baseURL, config } from "./services/index.js";
 import { Route } from "react-router-dom";
-import Nav from "./components/Nav/Nav.jsx"
-import Footer from "./components/Footer/Footer.jsx"
-import Name from "./components/Name/Name.jsx"
-import Image from "./components/Image/Image.jsx"
+import Nav from "./components/Nav/Nav.jsx";
+import Footer from "./components/Footer/Footer.jsx";
+import Name from "./components/Name/Name.jsx";
+import Image from "./components/Image/Image.jsx";
 import Create from "./components/Create/Create.jsx";
 
-
-import './App.css';
+import "./App.css";
 import axios from "axios";
 
 function App() {
   const [agents, setAgents] = useState([]);
-  const [toggle, setToggle] = useState(false)
-  
+  const [toggle, setToggle] = useState(false);
+
   useEffect(() => {
     const getAgents = async () => {
       const res = await axios.get(baseURL, config);
-      setAgents(res.data.records.sort(function(a, b){
-        return a.fields.id - b.fields.id
-      }))
-    }
+      setAgents(
+        res.data.records.sort(function (a, b) {
+          return a.fields.id - b.fields.id;
+        })
+      );
+    };
     getAgents();
-  },[toggle])
+  }, [toggle]);
   return (
     <div className="App">
-      <Nav/>
+      <Nav />
       <Route exact path="/">
-        <Name agents={agents}/>
+        <div className="name-container">
+          <Name agents={agents} />
+        </div>
       </Route>
-      <Route path="/agent/:id">
-        <Name agents={agents}/>
-        <Image agents={agents}/>
+      <Route path="/:id/agent">
+        <div className="name-container">
+          <Name agents={agents} />
+          <Image agents={agents} />
+        </div>
       </Route>
       <Route path="/new">
-        <Create setToggle={setToggle}/>
+        <Create setToggle={setToggle} />
       </Route>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

@@ -1,17 +1,19 @@
 /*  #FFFFFF #111111 #333333 #ff4655 #000A1F*/
 
-.agents-container {
-	height: 350px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	background-color: #000A1F;
+.primary-container {
+	/* background-image: linear-gradient(to right, #000A1F 50%, #FFFFFF); */
+	/* background-image: linear-gradient(90deg, #000A1F 50%, #FFFFFF 50%); */
+	background-image: linear-gradient(to right, #000A1F 50%, #ff4655);
+	/* background-image: linear-gradient(90deg, #000A1F 50%, #ff4655 50%); */
 }
-
+.secondary-container{
+	background-color: white;
+	/* height: 400px; */
+}
 .agent {
-  display: grid;
-	grid-template-columns: 1fr 250px 3fr 250px 1fr;
-	background-color: #000A1F;
+	display: grid;
+	grid-template-columns: 50px 4fr;
+	/* min-width: 400px; */
 }
 ul.agents-id,
 ul.agents-name {
@@ -26,14 +28,17 @@ ul.agents-id {
 }
 ul.agents-name,
 .agents-name {
-	font-size: 39px;
+	font-size: 60px;
 	font-weight: 600;
 	grid-column-start: 2;
 	grid-column-end: 3;
 	justify-self: start;
 }
 .agent-scrollbox {
-	height: 300px;
+	position: relative;
+	z-index: 2;
+	height: 400px;
+	width: 50vw;
 	overflow-y: scroll;
 }
 .agent-scrollbox::-webkit-scrollbar {

@@ -10,9 +10,9 @@ function Image(props) {
   );
   // console.log(currentAgent.fields)
   return (
-    <div className="agents-image">
+    <>
       {currentAgent && (
-        <div>
+        <div className="agent-image-container">
           <img
             className="agents-image"
             src={currentAgent.fields.image}
@@ -26,7 +26,7 @@ function Image(props) {
           </div>
         </div>
       )}
-    </div>
+    </>
   );
 }
 
