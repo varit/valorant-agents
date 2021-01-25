@@ -6,7 +6,7 @@ function InitialData(props){
 
   return(
     <div className="agent-image-container-id">
-        <img className="agents-image-id" src={initialAgents.image} alt="agents image"/>
+        <img className="agents-image-id" src={initialAgents.image} alt="agents"/>
       <div className="description-container-id">
         <div className="intro-title">/ / CHOOSE YOUR AGENT</div>
         <div className="intro-des">{initialAgents.description}</div>

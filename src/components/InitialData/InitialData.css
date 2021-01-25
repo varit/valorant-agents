@@ -34,14 +34,14 @@
   left: 0;
   display: grid;
   color: red;
-  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: repeat(12, 55px);
 }
 
 .intro-title {
   font-size: 10px;
   align-self: end;
-  grid-row-start: 2;
+  grid-row-start: 4;
   grid-column-start: 3;
   grid-column-end: 4;
 }
@@ -50,8 +50,8 @@
   font-weight: bold;
   color: #111111;
   justify-self: start;
-  align-self: center;
-  grid-row-start: 3;
+  /* align-self: center; */
+  grid-row-start: 5;
   grid-column-start: 3;
   grid-column-end: 4;
 }
