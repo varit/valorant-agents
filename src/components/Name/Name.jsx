@@ -1,9 +1,8 @@
 import "./Name.css";
 import { NavLink } from "react-router-dom";
-// import Image from "../Image/Image.jsx";
+
 function Name(props) {
   const { agents } = props;
-  // console.log("Agents",agents);
 
   return (
     <div className="primary-container">

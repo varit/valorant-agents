@@ -1,19 +1,14 @@
 /*  #FFFFFF #111111 #333333 #ff4655 #000A1F*/
 
 .primary-container {
-	/* background-image: linear-gradient(to right, #000A1F 50%, #FFFFFF); */
-	/* background-image: linear-gradient(90deg, #000A1F 50%, #FFFFFF 50%); */
 	background-image: linear-gradient(to right, #000A1F 50%, #ff4655);
-	/* background-image: linear-gradient(90deg, #000A1F 50%, #ff4655 50%); */
 }
 .secondary-container{
 	background-color: white;
-	/* height: 400px; */
 }
 .agent {
 	display: grid;
-	grid-template-columns: 50px 4fr;
-	/* min-width: 400px; */
+	grid-template-columns: 2fr 4fr;
 }
 ul.agents-id,
 ul.agents-name {
@@ -27,12 +22,24 @@ ul.agents-id {
 	justify-self: end;
 }
 ul.agents-name,
-.agents-name {
-	font-size: 60px;
+.agents-name a{
+	position: relative;
+	display: block;
+	width: 500px;
+	font-size: 75px;
 	font-weight: 600;
 	grid-column-start: 2;
 	grid-column-end: 3;
 	justify-self: start;
+}
+ul.agents-name {
+	transition-property: left;
+	transition-duration: 4s;
+	transition: tranform 1s ease-out;
+}
+ul.agents-name:hover {
+	left: 20px;
+
 }
 .agent-scrollbox {
 	position: relative;

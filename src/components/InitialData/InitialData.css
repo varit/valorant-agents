@@ -23,7 +23,7 @@
   grid-row-start: 2;
   justify-self: center;
   clip-path: inset(0 10px);
-  user-select: none;
+  pointer-events: none;
 }
 
 .description-container-id {
