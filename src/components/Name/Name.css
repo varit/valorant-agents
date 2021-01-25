@@ -33,18 +33,17 @@ ul.agents-name,
 	justify-self: start;
 }
 ul.agents-name {
-	transition-property: left;
-	transition-duration: 4s;
-	transition: tranform 1s ease-out;
+	transition: .2s ease-in-out;
 }
 ul.agents-name:hover {
-	left: 20px;
+	transform: translateX(10px);
+	transition-duration: .2s;
 
 }
 .agent-scrollbox {
 	position: relative;
 	z-index: 2;
-	height: 400px;
+	height: 600px;
 	width: 50vw;
 	overflow-y: scroll;
 }
