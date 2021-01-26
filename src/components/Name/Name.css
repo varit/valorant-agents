@@ -8,7 +8,7 @@
 }
 .agent {
 	display: grid;
-	grid-template-columns: 2fr 4fr;
+	grid-template-columns: calc(100% - 650px) 4fr;
 }
 ul.agents-id,
 ul.agents-name {

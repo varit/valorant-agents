@@ -25,7 +25,7 @@
   width: 100vw;
   display: grid;
   color: red;
-  grid-template-columns: 1fr 350px 2fr 350px 1fr;
+  grid-template-columns: 1fr 350px 3fr 350px 1fr;
   grid-template-rows: repeat(12, 55px);
 }
 
