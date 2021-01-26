@@ -54,6 +54,7 @@
 .item-bio-des {
   font-size: 15px;
   font-weight: 400;
+  min-width: 400px;
   grid-row-start: 5;
   grid-row-end: 10;
   grid-column-start: 4;
@@ -69,7 +70,7 @@
     justify-self: start;
   }
   .description-container {
-    grid-template-columns: calc(100% - 1350px) 350px 3fr 350px 1fr;
+    grid-template-columns: 25px calc(100% - 1350px) 350px 3fr 350px 1fr;
     grid-template-rows: repeat(20, 55px);
   }
   .item-role,
@@ -80,19 +81,19 @@
   }
   .item-role {
     grid-row-start: 15;
-    grid-column-start: 2;
+    grid-column-start: 3;
   }
   .item-role-des {
     grid-row-start: 16;
-    grid-column-start: 2;
+    grid-column-start: 3;
   }
   .item-bio {
     grid-row-start: 17;
-    grid-column-start: 2;
+    grid-column-start: 3;
   }
   .item-bio-des {
     grid-row-start: 18;
     grid-row-end: 20;
-    grid-column-start: 2;
+    grid-column-start: 3;
   }
 }

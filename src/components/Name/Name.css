@@ -8,7 +8,7 @@
 }
 .agent {
 	display: grid;
-	grid-template-columns: calc(100% - 650px) 4fr;
+	grid-template-columns: 40px calc(100% - 650px) 4fr;
 }
 ul.agents-id,
 ul.agents-name {
@@ -17,8 +17,8 @@ ul.agents-name {
 	grid-row-end: 3;
 }
 ul.agents-id {
-	grid-column-start: 1;
-	grid-column-end: 2;
+	grid-column-start: 2;
+	grid-column-end: 3;
 	justify-self: end;
 }
 ul.agents-name,
@@ -28,8 +28,8 @@ ul.agents-name,
 	width: 500px;
 	font-size: 75px;
 	font-weight: 600;
-	grid-column-start: 2;
-	grid-column-end: 3;
+	grid-column-start: 3;
+	grid-column-end: 4;
 	justify-self: start;
 }
 ul.agents-name {

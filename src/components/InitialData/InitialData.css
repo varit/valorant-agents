@@ -45,6 +45,7 @@
 .intro-des {
   font-size: 30px;
   font-weight: bold;
+  min-width: 435px;
   color: #111111;
   justify-self: start;
   align-self: center;
@@ -63,16 +64,16 @@
     grid-column-end: 4;
   }
   .description-container-id {
-    grid-template-columns: calc(100% - 1350px) 1fr 1fr 1fr;
+    grid-template-columns: 25px calc(100% - 1350px) 1fr 1fr 1fr;
     grid-template-rows: repeat(18, 55px);
   }
   .intro-title {
     color: #000000;
     grid-row-start: 15;
-    grid-column-start: 2;
+    grid-column-start: 3;
   }
   .intro-des {
     grid-row-start: 16;
-    grid-column-start: 2;
+    grid-column-start: 3;
   }
 }
