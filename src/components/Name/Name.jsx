@@ -8,9 +8,18 @@ function Name(props) {
 
   return (
     <div className="primary-container">
-    <video playsInline autoPlay muted loop poster={staticAgentBG} id="bgvid">
-      <source src={vidAgentBG} type="video/mp4"/>
-    </video>
+      <div>
+        <video
+          playsInline
+          autoPlay
+          muted
+          loop
+          poster={staticAgentBG}
+          id="bgvid"
+        >
+          <source src={vidAgentBG} type="video/mp4" />
+        </video>
+      </div>
       <div className="agent-scrollbox">
         {agents.map((agent) => {
           return (

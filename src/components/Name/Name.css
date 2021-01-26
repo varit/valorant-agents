@@ -51,9 +51,10 @@ ul.agents-name:hover {
 	display: none;
 }
 video {
-	position: fixed;
+	position: absolute;
 	object-fit: cover;
 	top: 0;
 	width: 50vw;
 	height: 600px;
 }
+
