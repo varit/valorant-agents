@@ -105,7 +105,7 @@ textarea {
   z-index: inherit;
   width: 100px;
   grid-column-start: 15;
-  grid-row-start: 12;
+  grid-row-start: 13;
   justify-self: center;
 }
 
