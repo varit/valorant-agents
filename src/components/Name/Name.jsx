@@ -1,11 +1,16 @@
 import "./Name.css";
 import { NavLink } from "react-router-dom";
+import staticAgentBG from "../../assets/media/agent-background-generic.JPG";
+import vidAgentBG from "../../assets/media/agent-background-generic.mp4";
 
 function Name(props) {
   const { agents } = props;
 
   return (
     <div className="primary-container">
+    <video playsInline autoPlay muted loop poster={staticAgentBG} id="bgvid">
+      <source src={vidAgentBG} type="video/mp4"/>
+    </video>
       <div className="agent-scrollbox">
         {agents.map((agent) => {
           return (
@@ -27,7 +32,6 @@ function Name(props) {
           );
         })}
       </div>
-      <div className="secondary-container"></div>
     </div>
   );
 }

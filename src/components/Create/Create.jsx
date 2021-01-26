@@ -1,6 +1,8 @@
 import { useState } from "react";
 import axios from "axios";
 import { baseURL, config } from "../../services";
+import staticAgentBG from "../../assets/media/agent-background-generic.JPG";
+import vidAgentBG from "../../assets/media/agent-background-generic.mp4";
 import "./Create.css";
 
 function Create(props) {
@@ -28,7 +30,12 @@ function Create(props) {
       onSubmit={handleSubmit}
       className="primary-container create-container"
     >
-      <h1 className="item-title-create">CREATE YOUR AGENT</h1>
+    <video playsInline autoPlay muted loop poster={staticAgentBG} id="bgvid">
+      <source src={vidAgentBG} type="video/mp4"/>
+    </video>
+      <h1 className="item-title-create">CREATE</h1>
+      <h1 className="item-title-your">YOUR</h1>
+      <h1 className="item-title-agent">AGENT</h1>
       <div className="item-image-create">IMAGE</div>
       <label htmlFor="image"></label>
       <input
@@ -48,7 +55,7 @@ function Create(props) {
         onChange={(e) => setName(e.target.value)}
         className="item-secondary item-name-input"
       />
-      <div className="item-role-create">Role</div>
+      <div className="item-role-create">ROLE</div>
       <label htmlFor="role"></label>
       <input
         name="role"

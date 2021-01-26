@@ -1,7 +1,7 @@
 /*  #FFFFFF #111111 #333333 #ff4655 #000A1F*/
-
+/* test: color #0d1a27 */
 .primary-container {
-	background-image: linear-gradient(to right, #000A1F 50%, #ff4655);
+	background-image: linear-gradient(to right, #0d1a27 50%, #ff4655);
 }
 .secondary-container{
 	background-color: white;
@@ -50,6 +50,10 @@ ul.agents-name:hover {
 .agent-scrollbox::-webkit-scrollbar {
 	display: none;
 }
-
-
-
+video {
+	position: fixed;
+	object-fit: cover;
+	top: 0;
+	width: 50vw;
+	height: 600px;
+}
