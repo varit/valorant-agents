@@ -46,6 +46,7 @@ ul.agents-name:hover {
 	height: 600px;
 	width: 50vw;
 	overflow-y: scroll;
+	overflow-x: hidden;
 }
 .agent-scrollbox::-webkit-scrollbar {
 	display: none;
