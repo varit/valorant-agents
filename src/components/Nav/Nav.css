@@ -48,9 +48,9 @@ nav {
   right: 0;
   height: 100vh;
   width: 400px;
-  background-color: #000A1F;
+  background-color: #000a1f;
 }
-.exit-icon{
+.exit-icon {
   display: none;
   right: 0;
   z-index: 5;
@@ -67,7 +67,6 @@ nav {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(4, 45px);
-
 }
 .menu-item-va,
 .menu-item-create,
@@ -79,7 +78,7 @@ nav {
   align-self: center;
 }
 .menu-item-va {
-  grid-row-start: 1;  
+  grid-row-start: 1;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
 }
@@ -94,6 +93,9 @@ nav {
 }
 
 @media only screen and (max-width: 1399px) {
+  nav {
+    grid-template-columns: 50px 50px 1fr 1fr auto 1fr 1fr 50px 50px;
+  }
   .hamburger-menu {
     display: block;
   }
@@ -104,5 +106,13 @@ nav {
   .item-gh-nav,
   .item-li-nav {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  nav {
+    position: fixed;
+    margin-top: -45px;
+    width: 100%;
   }
 }
