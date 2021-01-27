@@ -77,3 +77,19 @@
     grid-column-start: 3;
   }
 }
+@media only screen and (max-width: 1024px) {
+  .agents-image-id {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .agents-image-id {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    max-width: 600px;
+    clip-path: inset(0 40px 0 40px);
+  }
+}
