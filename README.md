@@ -1,6 +1,6 @@
 # Valorant Agents
 
-[Deployed URL]
+https://varit-valorant-agents.netlify.app/
 
 ## Project Description
 
@@ -71,33 +71,32 @@ records: [
 | Day      | Deliverable                                | Status   |
 | -------- | ------------------------------------------ | -------- |
 | 1/20/2021 | Proposal Approval / Airtable Setup         | Complete |
-| 1/21/2021 | Component Creation / Get, Set, Delete Data | Incomplete |
-| 1/22/2021 | Component Creation, continued/ CSS Components | Incomplete |
-| 1/23/2021 | CSS Components, continued / MVP                | Incomplete |
-| 1/24/2021 | Advanced CSS                               | Incomplete |
-| 1/27/2021 | Presentations                              | Incomplete |
+| 1/21/2021 | Component Creation / Get, Set              | Complete |
+| 1/22/2021 | Component Creation, continued/ CSS Components | Complete |
+| 1/23/2021 | CSS Components, continued / MVP                | Complete |
+| 1/24/2021 | Advanced CSS                               | Complete |
+| 1/27/2021 | Presentations                              | Complete |
 
 ## Timeframes
 
 | Component                                 | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------------------------------| :------: | :------------: | :-----------: | :---------: |
-| Proposal                                  |    H     |      2hrs      |               |             |
-| Airtable setup                            |    H     |     .5hrs      |               |             |
-| Components Header, creation               |    H     |      1hrs      |               |             |
-| Components Footer, creation               |    H     |      1hrs      |               |             |
-| Components Name, creation                 |    H     |      1hrs      |               |             |
-| Components Image, creation                |    H     |      1hrs      |               |             |
-| Components Description, creation          |    H     |      1hrs      |               |             |
-| Components Create, creation               |    H     |      1hrs      |               |             |
-| Components Hamburger, creation            |    H     |      1hrs      |               |             |
-| Components Header, implementation         |    H     |      2hrs      |               |             |
-| Components Footer, implementation         |    H     |      2hrs      |               |             |
-| Components Name, implementation           |    H     |      2hrs      |               |             |
-| Components Image, implementation          |    H     |      2hrs      |               |             |
-| Components Description, implementation    |    H     |      2hrs      |               |             |
-| Components Create, implementation         |    H     |      2hrs      |               |             |
-| Components Hamburger Menu, implementation |    H     |      2hrs      |               |             |
-| Basic CSS                                 |    H     |      5hrs      |               |             |
-| Advanced CSS                              |    H     |      15hrs     |               |             |
-| Total                                     |    H     |    43.5hrs     |               |             |
-
+| Proposal                                  |    H     |      2hrs      |     2hrs      |     2hrs    |
+| Airtable setup                            |    H     |     .5hrs      |     .5hrs     |     .5hrs   |
+| Components Header, creation               |    H     |      1hr       |     1hr       |     1hr     |
+| Components Footer, creation               |    H     |      1hr       |     1hr       |     1hr     |
+| Components Name, creation                 |    H     |      1hr       |     1hr       |     1hr     |
+| Components Image, creation                |    H     |      1hr       |     1hr       |     1hr     |
+| Components Description, creation          |    H     |      1hr       |     1hr       |     1hr     |
+| Components Create, creation               |    H     |      1hr       |     1hr       |     1hr     |
+| Components Hamburger, creation            |    H     |      1hr       |     1hr       |     1hr     |
+| Components Header, implementation         |    H     |      2hrs      |     2hrs      |     2hrs    |
+| Components Footer, implementation         |    H     |      2hrs      |     2hrs      |     2hrs    |
+| Components Name, implementation           |    H     |      2hrs      |     2hrs      |     2hrs    |
+| Components Image, implementation          |    H     |      2hrs      |     2hrs      |     2hrs    |
+| Components Description, implementation    |    H     |      2hrs      |     2hrs      |     2hrs    |
+| Components Create, implementation         |    H     |      2hrs      |     2hrs      |     2hrs    |
+| Components Hamburger Menu, implementation |    H     |      2hrs      |     2hrs      |     2hrs    |
+| Basic CSS                                 |    H     |      5hrs      |     5hrs      |     5hrs    |
+| Advanced CSS                              |    H     |      15hrs     |     15hrs     |     15hrs   |
+| Total                                     |    H     |    43.5hrs     |     43.5hrs   |     43.5hrs |
