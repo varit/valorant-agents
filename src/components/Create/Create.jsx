@@ -5,6 +5,30 @@ import staticAgentBG from "../../assets/media/agent-background-generic.JPG";
 import vidAgentBG from "../../assets/media/agent-background-generic.mp4";
 import "./Create.css";
 
+const officialList = new Set
+  ([
+    "brimstone", 
+    "phoenix", 
+    "sage", 
+    "sova", 
+    "viper", 
+    "cypher", 
+    "reyna", 
+    "killjoy", 
+    "breach", 
+    "omen", 
+    "jett", 
+    "raze", 
+    "skye",
+    "yoru",
+    "astra",
+    "kay/o",
+    "chamber",
+    "neon",
+    "fade",
+    "harbor"
+  ])
+
 function Create(props) {
   const [image, setImage] = useState("");
   const [name, setName] = useState("");
@@ -13,17 +37,26 @@ function Create(props) {
 
   async function handleSubmit(e) {
     e.preventDefault();
-    console.log("submitted");
 
-    const fields = {
-      image,
-      name,
-      role,
-      biography,
-    };
+    if(!officialList.has(name)){
+      console.log("Agent is not part of Valorants universe!")
+    }else if(officialList.has(name) && !props.agents.has(name)){
 
-    await axios.post(baseURL, { fields }, config);
-    props.setToggle((toggle) => !toggle);
+      console.log("submitted");
+
+      const fields = {
+        image,
+        name,
+        role,
+        biography,
+      };
+      
+      await axios.post(baseURL, { fields }, config);
+      props.setToggle((toggle) => !toggle);
+    }else{
+      console.log("Duplicate agent!")
+    }
+
   }
   return (
     <form

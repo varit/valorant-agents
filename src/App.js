@@ -51,7 +51,7 @@ function App() {
         </div>
       </Route>
       <Route path="/new">
-        <Create setToggle={setToggle} />
+        <Create setToggle={setToggle} agents={new Set(agents.map((agent) => {return agent.fields.name}))}/>
       </Route>
       <Footer />
     </div>
